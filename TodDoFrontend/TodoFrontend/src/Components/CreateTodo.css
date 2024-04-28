@@ -1,0 +1,30 @@
+/* Append to the existing Todos.css file */
+
+/* CreateTodo component */
+
+.create-todo-container {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+  
+  .create-todo-input {
+    margin-bottom: 10px; /* Add bottom margin to input fields */
+  }
+  
+  .create-todo-button {
+    background-color: #4caf50; /* Green background color for button */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-todo-button:hover {
+    background-color: #388e3c; /* Darker green color on hover */
+  }
+  
